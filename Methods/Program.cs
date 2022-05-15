@@ -10,7 +10,7 @@ namespace Methods
     {
         static void Main(string[] args)
         {
-            // Bir kullanıcının bilgilerini veritabanına kaydetmeye ihtiyaç duyduğumuzu düşünelim. Bu işlemi yaptığımız her noktada kaydetme metodunu kodun içerisine tekrar tekrar yazarsak daha sonrasında güncellemek istediğimizde kod içerisinde çok fazla değişiklik yapmak zorunda kalacağız. Metodlarla bir işlemi yaptığımızda o işlemi güncellemek veya tekrar kullanmak istersek tek merkezden aynı metodu kontrol edebilme imkanı buluyoruz.
+            // Bir kullanıcının bilgilerini veritabanına kaydetmeye ihtiyaç duyduğumuzu düşünelim. Bu işlemi yaptığımız her noktada kaydetme metodunu kodun içerisine tekrar tekrar yazarsak daha sonrasında güncellemek istediğimizde kod içerisinde çok fazla değişiklik yapmak zorunda kalacağız. Metodlarla bir işlemi yaptığımızda o işlemi güncellemek veya tekrar kullanmak istersek tek merkezden aynı metodu kontrol edebilme imkanı buluyoruz. 
 
 
             Add(); // Metodu yazzdıktan sonra metodun çağırımını yaparız.
