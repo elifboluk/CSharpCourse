@@ -11,7 +11,7 @@ namespace TypesAndVariables
         static void Main(string[] args)
         {
             // Console.WriteLine("Hello World!");
-            // Console.ReadLine();
+            // Console.ReadLine(); 
 
 
             int number1 = 5; // number1 bir değişkendir, int ise veri tipidir. 
