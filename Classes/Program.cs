@@ -8,7 +8,7 @@ namespace Classes // Yapmak istediğimiz işlemlei gruplara ayırmak o grup üze
 {
     internal class Program
     {
-        static void Main(string[] args) //bu çerçevede kullanmak için bir class'ı onun bir örneğini oluşturmamız gerekir. Örneğin;
+        static void Main(string[] args) //bu çerçevede kullanmak için bir class'ı onun bir örneğini oluşturmamız gerekir. Örneğin; 
         {
             CustomerManager customerManager = new CustomerManager(); //class'ın örneği oluşturulduğunda ise (custormerManager  Camel Case kullanılır.
             customerManager.Add();
