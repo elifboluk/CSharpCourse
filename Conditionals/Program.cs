@@ -10,7 +10,7 @@ namespace Conditionals
     {
         static void Main(string[] args)
         {
-            /* 
+            /*  
             var number = 10;
             if (number == 10) // Eğer sayı 10 ise
             {
