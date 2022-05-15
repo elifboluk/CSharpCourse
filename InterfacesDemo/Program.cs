@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 // D → Dependency Inversion
 
 namespace InterfacesDemo // Interface'lerin doğru planlanması çok önemlidir! SOLID Principles → I → Interface Segregation Principle
-{
+{ 
     internal class Program
     {
         static void Main(string[] args)
