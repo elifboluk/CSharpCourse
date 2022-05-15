@@ -11,7 +11,7 @@ namespace Arrays
             students[2] = "Salih";
 
             string[] students2 = new string[] {"Engin", "Derin", "Salih"}; // string[] students2 = {"Engin", "Derin", "Salih"}; şeklinde de yazılabilir.
-            students2[3] = "Ahmet"; //Hata verir çünkü 3 yazmak demek 4. elemanı vermek demektir ama biz new string[3] olarak belirledik, dolayısıyla sayıyı aşamayız.
+            students2[3] = "Ahmet"; //Hata verir çünkü 3 yazmak demek 4. elemanı vermek demektir ama biz new string[3] olarak belirledik, dolayısıyla sayıyı aşamayız. 
 
             foreach (var student in students2)
             {
