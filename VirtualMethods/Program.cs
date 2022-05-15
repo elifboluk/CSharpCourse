@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace VirtualMethods // Bir class'ımız var ve bu class içerisinde çeşitli operasyonlar var mesela database işlemleri.
-{
+{ 
     internal class Program
     {
         static void Main(string[] args)
