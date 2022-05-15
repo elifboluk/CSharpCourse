@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 // Interface'lerin amacı bir temel nesne oluşturup bütün nesneleri ondan implemente etmektir.
-// Gerçek hayat uygulamalarında interface'leri katmanlar arası geçişlerde yoğun ölçüde kullanırız. Burada amacımız uygulamaların bağımlılıklarını minimize etmektir.
+// Gerçek hayat uygulamalarında interface'leri katmanlar arası geçişlerde yoğun ölçüde kullanırız. Burada amacımız uygulamaların bağımlılıklarını minimize etmektir. 
 {
     internal class Program
     {
