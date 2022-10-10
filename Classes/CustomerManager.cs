@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Classes
 {
     class CustomerManager // Katmanlı mimaride manager bizim iş kodlarımıza karşılık gelir. Customer Manager ise müşteri ile ilgili işlemler içindir. Class oluşturulurken (CustomerManager) Pascal Case kullanılır.
+                          // CustomerManager customerManager = new CustomerManager(); //class'ın örneği oluşturulduğunda ise (custormerManager)  Camel Case kullanılır.
     {
         public void Add() // Add metodu oluşturuldu.
         {
