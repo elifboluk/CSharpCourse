@@ -25,9 +25,7 @@ namespace Classes
         public string LastName { get; set; }
         public string Address { get; set; }
 
-        // public string FirstName; → Bir değişken tanımladık, buna aynı zamanda field denir.
-        
+        // public string FirstName; → Bir değişken tanımladık, buna aynı zamanda field denir.        
     }
 }
-
 // Classların bir diğer özelliği ise property dediğimiz nesneleri(özellikleri) tutmaktır.
