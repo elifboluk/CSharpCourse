@@ -14,7 +14,7 @@ namespace AdoNetDemo
     public class ProductDal
     {
 
-        public List<Product> GetAll() // Ürünleri listeleyeceğimiz method
+        public List<Product> GetAll() // Ürünleri listeleyeceğimiz method.
         {
 
             SqlConnection connection = new SqlConnection(@"server=(localdb)\mssqllocaldb;initial catalog=ETrade; integrated security=true"); // @ burada yazdığım her şeyi tamamen bir string kabul et demektir.
@@ -22,7 +22,14 @@ namespace AdoNetDemo
             {
                 connection.Open();
             }
-            SqlCommand command = new SqlCommand("Select * from Products");
+            SqlCommand command = new SqlCommand("Select * from Products", connection); // Sorguyu bağlantıya gönder.
+            SqlDataReader reader = command.ExecuteReader(); // ExecuteReader metodu ile komut çalıştırılır. 
+
+            // DataTable dataTable = new DataTable();
+            // dataTable.Load(reader);
+            // reader.close();
+            // connection.close();
+            // return dataTable();
 
 
         }
