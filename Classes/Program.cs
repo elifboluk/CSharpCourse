@@ -23,17 +23,17 @@ namespace Classes // Yapmak istediğimiz işlemlei gruplara ayırmak o grup üze
             Customer customer = new Customer();
             customer.Address = "İstanbul";
             customer.Id = 1;
-            customer.Name = "Elif"; // set edildi, değer veriliyor.
+            customer.FirstName = "Elif"; // set edildi, değer veriliyor.
             customer.LastName = "Bölük";
 
             Customer customer2 = new Customer
             {
-                Name = "Elif", // ctrl+space yaparak bu şekilde de müşteri ile ilgili bilgileri yazabilirdik.
+                FirstName = "Elif", // ctrl+space yaparak bu şekilde de müşteri ile ilgili bilgileri yazabilirdik.
                 LastName = "Bölük",
                 Id = 1,
                 Address = "İstanbul",
             };
-            Console.WriteLine(customer2.Name); // get çalıştı, değer okunuyor.
+            Console.WriteLine(customer2.FirstName); // get çalıştı, değer okunuyor.
 
 
             Console.ReadLine();
