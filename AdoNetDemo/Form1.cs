@@ -20,7 +20,7 @@ namespace AdoNetDemo
         private void Form1_Load(object sender, EventArgs e)
         {
             ProductDal productDal = new ProductDal();
-            dgwProducts.DataSource = Product.GetAll();
+            //dgwProducts.DataSource = Product.GetAll();
         }
     }
 }
