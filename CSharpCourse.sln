@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{127A7737-A33D-43A0-94C3-6EFC8B5E1270}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{904FFCA5-3A0A-4925-86A9-1A4090A6DC05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{127A7737-A33D-43A0-94C3-6EFC8B5E1270}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{127A7737-A33D-43A0-94C3-6EFC8B5E1270}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{127A7737-A33D-43A0-94C3-6EFC8B5E1270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904FFCA5-3A0A-4925-86A9-1A4090A6DC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904FFCA5-3A0A-4925-86A9-1A4090A6DC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904FFCA5-3A0A-4925-86A9-1A4090A6DC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904FFCA5-3A0A-4925-86A9-1A4090A6DC05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
